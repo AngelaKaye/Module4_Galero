@@ -1,8 +1,6 @@
-// Get user data from API
 fetch('https://jsonplaceholder.typicode.com/users')
   .then(response => response.json())
   .then(users => {
-    // Generate user list
     let userList = document.querySelector('#home .list-group');
     let row = document.createElement('div');
     row.classList.add('row');
@@ -26,11 +24,9 @@ fetch('https://jsonplaceholder.typicode.com/users')
     });
   });
 
-// Get photo data from API
 fetch('https://jsonplaceholder.typicode.com/photos')
   .then(response => response.json())
   .then(photos => {
-    // Generate photo gallery
     let gallery = document.querySelector('#gallery .row');
     photos.slice(0, 100).forEach(photo => {
       let col = document.createElement('div');
