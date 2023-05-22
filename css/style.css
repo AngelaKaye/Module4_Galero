@@ -1,8 +1,9 @@
-body {
-  font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* Make content area fill the entire browser window */
 html,
 .fullscreen {
   display: flex;
@@ -12,12 +13,24 @@ html,
   width: 100%;
 }
 
-/* Center the content in the browser window */
 .container {
-  margin: auto;
   text-align: center;
+  margin-top: 20px;
 }
 
 .title {
   font-size: 3rem;
+}
+
+img{
+  transition: transform .5s;
+}
+
+img:hover {
+   transform: scale(1.1);  
+}
+
+.list-group-item:hover{
+   background-color: whitesmoke;
+   color: black;
 }

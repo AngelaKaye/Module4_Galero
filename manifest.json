@@ -1,25 +1,25 @@
 {
-  "name": "PWA gallery Application with JSON dataset",
-  "short_name": "GALLERY APPLICATION",
+  "name": "PWA Module 4 Galero",
+  "short_name": "PWA Galero",
   "icons": [{
-    "src": "images/logo-ccs-60.png",
+    "src": "images/mypic-60.png",
       "sizes": "60x60",
       "type": "image/png",
       "purpose": "any maskable"
       
     }, {
-      "src": "images/logo-ccs-60.png",
+      "src": "images/mypic-60.png",
       "sizes": "90x90",
       "type": "image/png",
       "purpose": "any maskable"
     }, {
-      "src": "images/logo-ccs-60.png",
+      "src": "images/mypic-60.png",
       "sizes": "100x100",
       "type": "image/png",
       "purpose": "any maskable"
     }
     , {
-      "src": "images/logo-ccs-60.png",
+      "src": "images/mypic-60.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

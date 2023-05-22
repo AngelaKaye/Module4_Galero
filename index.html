@@ -2,45 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>GALLERY APPLICATION</title>
-   <!-- Link to manifest file -->
+  <title>PWA Galero</title>
   <link rel="manifest" href="/manifest.json">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="images/logo-ccs-60.png" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="images/logo-ccs-60.png">
+  <link rel="icon" href="images/mypic60.png" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="images/mypic-60.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="white"/>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="ITST 304">
-  <meta name="msapplication-TileImage" content="images/logo-ccs-90.png">
+  <meta name="msapplication-TileImage" content="images/mypic-90.png">
   <meta name="msapplication-TileColor" content="#FFFFFF">
-   <!-- Link to Bootstrap CSS -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   
   <style>
-    img{
-      transition: transform .5s;
-    }
-    img:hover {
-       transform: scale(1.1);  
-    }
-    
-    .list-group-item:hover{
-       background-color: black;
-       color: white;
-    }
+
   </style>
 
 
    
 </head>
-<body class="fullscreen" style="background-color: beige;">
+<body class="fullscreen" style="background-color: #AEC6CF;">
   <div class="container">
    <header id="header" class="fixed-top d-flex align-items-right header-transparent">
-     <!-- Navigation bar -->
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="width: 100%;  ">
-      <a class="navbar-brand" href="#">PWA Gallery Application </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -60,7 +46,6 @@
     </nav>
   </header>
   
-    <!-- Home tab -->
     <div id="home" class="container">
     
       <br><br><br>
@@ -68,7 +53,7 @@
      <ul class="list-group" style="text-align: center;"></ul>
    </div>
    <br>
-   <!-- Gallery tab -->
+   
    <hr color="black">
    <div id="gallery" class="container">
     <br><br><br>
@@ -76,7 +61,6 @@
      <div class="row"></div>
    </div>
 <br>
-   <!-- About tab -->
    <hr color="black">
    <div id="about" class="container">
     <br><br><br>
@@ -93,22 +77,15 @@
             <div class="about-item bg-dark p-4 rounded">
               <div class="row">
                 <div class="col-md-4"><br><br><br><br><br>
-                  <img  src="images/prof.jpg" alt="Developer Image" class="rounded-circle" style="width: 200px; height: 250px;">
+                  <img  src="images/mypicture.jpg" alt="Developer's Picture" class="rounded-circle" style="width: 200px; height: 170px;">
                   <br></div>
                 <div class="col-md-8">
-                  <h3 class="mt-4 text-center"><b>Jennalyn Nayoyos</b></h3>
-                  <p class="mt-4 text-left">Hey! I’m Jenna and I’m a undergraduate student taking Bachelor of science in information technology major in WEB AND MOBILE APPLICATION DEVELOPMENT as I am pursuing web development.
-                    <br><br>As a student major in web development, I possess a considerable amount of knowledge and experience in various web development technologies, including HTML, CSS, JavaScript, and PHP. With this expertise, I can effectively create dynamic, responsive, 
-                    and interactive websites and web applications that meet the needs of businesses and users alike.
-                  <br><br>
-                  Moreover, I also have a  considerable amount of knowledge with programming languages such as C# and Java.
+                  <h3 class="mt-4 text-center"><b>Angela Kaye A. Galero</b></h3>
+                  <p class="mt-4 text-justify"> Hi! I'm Kaye.
+                    <br><br>I am currently pursuing a Bachelor of Science in Information Technology with a major in Web and Mobile Application Development. Throughout my academic journey, I have acquired valuable programming skills that have shaped my expertise in this field. HTML, CSS, and PHP are the programming languages that I have mastered, allowing me to create visually appealing and functional web and mobile applications. 
                   </p>
 
 
-
-                  <div class="mt-3 text-center">
-                    <a href="https://www.facebook.com/jenna.nayoyos01" target="_blank"><img src="images/facebook.png" style="width: 30px; height: 30px;"></a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -119,14 +96,14 @@
     
    </div><br>
    <br><br><br><br><br>
-   <!-- Link to Bootstrap JS -->
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   
-   <!-- Link to app JS -->
   </div>
   <script src="js/main.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
+
+
